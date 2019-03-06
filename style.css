@@ -1,0 +1,386 @@
+@font-face {
+	font-family: 'GothamBook';
+	src: url('../fonts/GothamBook.otf') format('opentype');
+
+}
+@font-face {
+	font-family: 'GothamBold';
+	src: url('../fonts/GothamBold.otf') format('opentype');
+
+}
+@font-face {
+	font-family: 'GothamBlackRegular';
+	src: url('../fonts/GothamBlackRegular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'GothamBlack';
+	src: url('../fonts/GothamBlack.otf') format('opentype');
+}
+@font-face {
+	font-family: 'GothamLight';
+	src: url('../fonts/GothamLight.otf') format('opentype');
+}
+
+
+@media screen and (max-width: 1240px) {
+  .product_wrapper {
+    width: 28% !important;
+  }
+.timer {
+    color: white;
+    display: inline;
+    position: absolute;
+    top: 90px;
+    right: 20px !important;
+    border: 4px solid white;
+    padding: 25px;
+}
+#image_delivery {
+    display: inline;
+    position: absolute;
+    top: 300px !important;
+    left: 485px;
+}
+.discount_amount{
+font-size: 115.04px !important;
+}
+.black_rectangle{
+padding-bottom: 10px !important;
+padding-top: 10px !important;
+padding-left: 15px !important;
+padding-right: 15px !important;
+}
+.procent_symbol{
+font-size: 25px !important;
+}
+sup {
+font-size: 25px !important;
+}
+.discount {
+    font-family: 'GothamLight';
+    font-size: 18.04px !important;
+    color: #ffef3a;
+    left: 490px !important;
+    max-height: 300px;
+    display: inline;
+    position: absolute;
+    top: 65px;
+    width: 33%;
+}
+#image_watch {
+width:200px;
+}
+#top{
+padding-left: 15px !important;
+}
+.period {
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    text-transform: uppercase;
+}
+.time {
+    color: black;
+    font-size: 9.9px !important;
+    font-family: 'GothamBold';
+}
+.timer {
+    color: white;
+    display: inline;
+    position: absolute;
+    top: 90px;
+    right: 30px !important;
+    border: 4px solid white;
+    padding: 15px !important;
+    display: block;
+}
+#demo {
+    font-family: 'GothamBook';
+    font-size: 28px !important;
+}
+}
+@media screen and (max-width: 992px) {
+  .product_wrapper {
+    width: 42% !important;
+  }
+.promo_price {
+display:block;
+}
+.subheader_r {
+    display: block;
+float:none !important;
+}
+
+}
+@media screen and (max-width: 600px) {
+  .product_description {
+    padding-right: 5px;
+  }
+.product_wrapper {
+    width: 46% !important;
+padding-left:0px !important;
+margin-left:5px !important;
+
+  }
+.promo_price {
+display:block;
+}
+
+
+}
+
+
+
+body {
+    margin-left:15px;
+    margin-right:15px;
+}
+#top{
+    background-color:#ea2423;
+    padding-bottom: 27px;
+    padding-top: 32px;
+    padding-left: 80px;
+    padding-right:80px;
+    max-width: 1500px;
+}
+.header_text {
+    text-transform: uppercase;
+    font-family: 'GothamBlackRegular';
+    font-size: 45px;
+    display: inline-block;
+    position: absolute;
+top: 120px;
+left: 100px;
+color: white;
+}
+.image_watch {
+    height: auto;
+    max-width: 100%;
+}
+img {
+       height: auto;
+    max-width: 100%;
+}
+p {
+    margin: 0;
+}
+.header {
+    width: 100%;
+    height: auto;
+}
+.yellow_text{
+    color:#ffef3a;
+font-family: 'GothamBlack';
+}
+.black_rectangle {
+    font-size: 26px;
+    padding-bottom: 35px;
+    padding-top: 31px;
+    padding-left: 31px;
+    padding-right: 34px;
+    color: white;
+    background-color: black;
+    display: inline-block;
+    text-transform: uppercase;
+position:absolute;
+}
+.black_rectangle .bold {
+    font-family: 'GothamBlack';
+}
+.discount {
+    display: inline-block;
+}
+.active {
+color: white !important;
+background:#4CAF50 !important;
+}
+.black_rectangle::after{
+content: " ";
+ position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 0%;
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 20px 50px 0 0;
+border-color: black transparent transparent transparent;
+}
+.content_header {
+font-family:'GothamBook';
+font-size:20px;
+}
+.content_header_hour {
+font-family:'GothamBook';
+font-size:20px;
+display:inline;
+text-transform:uppercase;
+}
+#top_10
+{
+display:none;
+}
+
+
+
+.timer {
+color:white;
+display: inline;
+position: absolute;
+top: 90px;
+right: 40px;
+border: 4px solid white;
+padding: 25px;
+}
+.discount_light {
+font-family:'GothamLight';
+font-size: 21.77px;
+color:white;
+}
+.discount_bold {
+font-family:'GothamBook';
+font-size: 108.85px;
+}
+.discount {
+    font-family: 'GothamLight';
+    font-size: 27.04px;
+    color: #ffef3a;
+    left: 630px;
+    max-height: 300px;
+    display: inline;
+    position: absolute;
+    top: 65px;
+    width: 33%;
+}
+#demo{
+font-family: 'GothamBold';
+    font-size: 54px;
+}
+#d {
+font-family: 'GothamLight';
+text-align:center;
+font-size: 16px;
+text-transform:uppercase;
+}
+.time {
+color:black;
+font-size: 18.9px;
+font-family: 'GothamBold';
+}
+.period{
+padding-right: 32px;
+padding-left: 32px;
+text-transform:uppercase;
+}
+.procent {
+font-family: 'GothamBook';
+font-size: 108px;
+}
+#image_delivery{
+display: inline;
+position: absolute;
+top: 218px;
+left: 485px;
+}
+.product_wrapper{
+width:21%;
+display: inline-block;
+border: solid 1px #ebebeb;
+padding-bottom:24px;
+padding-left:24px;
+padding-right:0px;
+margin-left: 24px;
+margin-bottom:24px;
+}
+myBtnContainer2 {
+width:100%;
+}
+.subheader {
+display: inline-block;
+}
+.content_header {
+margin-top:43px;
+margin-bottom:43px;
+}
+#myBtnContainer {
+margin-bottom:15px;
+}
+.subheader_right {
+font-family: 'GothamBook';
+font-size: 14px;
+text-transform:lowercase;
+}
+.subheader_r {
+float:right;
+}
+.align_image {
+vertical-align:middle;
+padding-right:20px;
+}
+.icon_shopping{
+vertical-align:middle;
+padding-right:15px;
+margin-bottom: 2px;
+}
+.promo_price{
+font-family: 'GothamBold';
+font-size: 20px;
+color:#ff0000;
+padding-right:15px;
+}
+.base_price{
+font-family: 'GothamBook';
+font-size: 14px;
+color:#1a171b;
+}
+.prices{
+margin-top:85px;
+}
+.product_description{
+font-family: 'GothamBook';
+font-size: 13px;
+color:#222222;
+margin-top:15px;
+padding-right: 54px;
+}
+.product_image{
+padding-top:85px;
+}
+.savings{
+float: right;
+padding: 15PX;
+border: solid 2px #f00;
+color: #f00;
+}
+.avability{
+padding-top:15px;
+}
+.producent{
+font-family: 'GothamBook';
+font-size: 13px;
+color:#9f9f9f;
+
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
